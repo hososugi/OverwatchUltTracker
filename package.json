@@ -1,0 +1,35 @@
+{
+  "name": "overwatchulttracker",
+  "version": "1.0.0",
+  "description": "A tool used for tracking Ultimates",
+  "main": "main.js",
+  "scripts": {
+    "build": "",
+    "start": "electron ."
+  },
+  "author": "DEW",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^4.3.1",
+    "electron": "^5.0.1",
+    "file-loader": "^3.0.1",
+    "iohook": "^0.4.5",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0"
+  },
+  "dependencies": {},
+  "iohook": {
+    "targets": [
+      "node-64",
+      "electron-70"
+    ],
+    "platforms": [
+      "win32",
+      "darwin"
+    ],
+    "arches": [
+      "x64",
+      "ia32"
+    ]
+  }
+}
