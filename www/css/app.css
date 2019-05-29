@@ -5,7 +5,7 @@ body #container {
   position: relative;
   display: flex;
   justify-content: center;
-  max-width: 800px;
+  max-width: 650px;
   flex-direction: row;
   flex-wrap: nowrap;
   padding-right: 25px;
@@ -38,11 +38,23 @@ body #container .hero-container .hero-bar {
   border-radius: 2px 2px 0px 0px;
 }
 body #container .hero-container .hero-bar .hero-bar-percent {
+  position: relative;
   margin: 2px;
-  border: 1px solid #ccc;
+  border: 1px solid #e6e6e6;
   border-radius: 2px;
   text-align: center;
-  font-size: 10px;
+  font-size: 14px;
+}
+body #container .hero-container .hero-bar .hero-bar-percent .hero-bar-percent-background {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 0%;
+  background: yellow;
+}
+body #container .hero-container .hero-bar .hero-bar-percent .hero-bar-percent-text {
+  position: relative;
 }
 body #container .hero-container .image-container {
   position: absolute;
