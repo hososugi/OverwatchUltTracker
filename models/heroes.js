@@ -9,7 +9,7 @@ var HERO_DATA = {
         "abilities": {
             
         },
-        "totalUltimateCost": undefined
+        "totalUltimateCost": 2000
     },
     "Baby D.Va": {
         "abilities": {
@@ -21,7 +21,7 @@ var HERO_DATA = {
         "abilities": {
             
         },
-        "totalUltimateCost": undefined
+        "totalUltimateCost": 1750
     },
     "Bastion": {
         "abilities": {
