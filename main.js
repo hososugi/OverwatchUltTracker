@@ -33,9 +33,9 @@ function createWindow()
   let win = new BrowserWindow({
     width: 800,
     height: 100,
-    /*titleBarStyle: 'customButtonsOnHover',
+    titleBarStyle: 'customButtonsOnHover',
     transparent: true,
-    frame: false,*/
+    frame: false,
     alwaysOnTop: true,
     webPreferences: {
       nodeIntegration: true

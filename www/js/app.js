@@ -61,7 +61,7 @@
             if(percent > 100)
                 percent = 100;
 
-            var barColorIndex = Math.floor(percent / 33);
+            var barColorIndex = Math.floor(percent / 25);
             var barColor      = percentBarColors[barColorIndex];
 
             var fontColor = "black";
